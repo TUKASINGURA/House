@@ -9,5 +9,6 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="icon_color">#4CAF50</color>
+    <color name="your_dot_color">#49F436</color>
 
 </resources>

@@ -15,6 +15,7 @@ import com.example.house.R
 import com.example.house.databinding.FragmentLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
+
 class loginFragment: Fragment() {
     private lateinit var progressDialog: ProgressDialog
     lateinit var binding: FragmentLoginBinding

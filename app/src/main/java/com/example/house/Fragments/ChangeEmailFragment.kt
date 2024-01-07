@@ -127,10 +127,6 @@ class ChangeEmailFragment : Fragment() {
         return email.trim().matches(emailRegex.toRegex())
     }
 
-//    private fun isValidEmail(email: String): Boolean {
-//        val emailRegex = "^[A-Za-z](.*)([@]{1})(.{1,})(\\.)(.{1,})"
-//        return email.trim().matches(emailRegex.toRegex())
-//    }
     private fun showToast(message: String) {
         Toast.makeText(requireContext(), message, Toast.LENGTH_LONG).show()
     }

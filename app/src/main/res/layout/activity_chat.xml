@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Chat messages -->
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true"/>
+
+    <!-- Message input -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/messageInputEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Type a message..."/>
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"/>
+    </LinearLayout>
+
+    <!-- Presence indicator (using a dot) -->
+    <View
+        android:id="@+id/presenceIndicator"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/dot_indicator"/>
+</LinearLayout>
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical">-->
+
+<!--    &lt;!&ndash; Chat messages &ndash;&gt;-->
+<!--    <ListView-->
+<!--        android:id="@+id/chatListView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:divider="@null"-->
+<!--        android:dividerHeight="0dp"-->
+<!--        android:stackFromBottom="true"/>-->
+
+<!--    &lt;!&ndash; Message input &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/messageInputEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Type a message..."/>-->
+
+<!--    &lt;!&ndash; Send button &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/sendButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Send"/>-->
+<!--</LinearLayout>-->
