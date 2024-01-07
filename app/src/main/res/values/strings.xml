@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">House</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Cart</string>
+    <string name="title_notifications">Profile</string>
+    <string name="notifications" tools:ignore="ExtraTranslation">Open</string>
+    <string name="action_settings">Settings</string>
+    <string name="Settings">Orders and Transactions</string>
+    <string name="orders">Orders</string>
+    <string name="product_details">Product Details</string>
+    <string name="availability">Contact</string>
+    <string name="money">Price e.g(UgX.500)</string>
+    <string name="order">Orders Made</string>
+    <string name="ordr">Billing and Transactions</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit Item</string>
+    <string name="add_image">Attach Image</string>
+    <string name="name">Name: John Doe</string>
+    <string name="email">Email: john.doe@example.com</string>
+    <string name="profileInformatio">Profile Information</string>
+    <string name="accountBalance">Account Balance and Transactions</string>
+    <string name="orde">Account Balance: $100</string>
+    <string name="contact">Contact:+1 123-456-7890</string>
+    <string name="edit">Edit Profile</string>
+    <string name="password">Password</string>
+    <string name="signUP">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="profileInformati">Find your Account</string>
+    <string name="emailaddress">Enter your Email  Address that you used when Registering</string>
+    <string name="resetMessage">You will receive a notification message from us for Security and login Purposes</string>
+</resources>

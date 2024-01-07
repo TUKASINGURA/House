@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289609262988",
+    "project_id": "house-3d975",
+    "storage_bucket": "house-3d975.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289609262988:android:f7c4b64b35390d6fcb58a9",
+        "android_client_info": {
+          "package_name": "com.example.house"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAovX5YF4w2ErID81BuLt1Xkh1pXvXQ9bQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
