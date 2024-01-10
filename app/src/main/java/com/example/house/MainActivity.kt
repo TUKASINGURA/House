@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.signUpFragment -> hideBottomNavigation()
                 R.id.forgotPasswordFragment->hideBottomNavigation()
                 R.id.loginFragment->hideBottomNavigation()
+                R.id.homeFragment->hideBottomNavigation()
                 else -> showBottomNavigation()
             }
         }

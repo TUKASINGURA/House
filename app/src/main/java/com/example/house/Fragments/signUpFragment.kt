@@ -11,6 +11,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.example.house.R
@@ -35,6 +36,9 @@ class signUpFragment<CheckBox> : Fragment() {
     // Access the views using the binding object in onViewCreated or later
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        (activity as AppCompatActivity).supportActionBar?.hide()
+
         db = FirebaseFirestore.getInstance().document("UserDetails/credentials")
         binding.signUpButton.setOnClickListener{
             signUpUser()
@@ -181,4 +185,10 @@ class signUpFragment<CheckBox> : Fragment() {
             }.addOnFailureListener { exception: java.lang.Exception ->
                 Toast.makeText(requireContext(), exception.toString(), Toast.LENGTH_LONG).show()
             }
+    }
+    override fun onDestroyView() {
+        super.onDestroyView()
+
+        // Show the ActionBar when the fragment's view is destroyed
+        (activity as AppCompatActivity).supportActionBar?.show()
     }}
